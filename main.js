@@ -23,10 +23,10 @@ function gotResults(error, results){
         document.getElementById("result_label").style.color="rgb(" + random_number_r+","+random_number_g+","+random_number_b+")";
         document.getElementById("result_confidence").style.color="rgb(" + random_number_r+","+random_number_g+","+random_number_b+")";
 
-        img= document.getElementById('policia1')
-        img2=document.getElementById('ambulancia2')
-        img3=document.getElementById('bomberos3')
-        img4=document.getElementById('proteccion civil4')
+        img= document.getElementById('Policia')
+        img2=document.getElementById('ambulancia')
+        img3=document.getElementById('bomberos')
+        img4=document.getElementById('proteccion civil')
 
         if(results[0].label=="Policia"){
             img.src='policia-01.gif';
