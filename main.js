@@ -1,7 +1,7 @@
 function starClasification ()
 {
-    navigator.mediaDevices.getUserMedia({audio: true});
-    classifier = ml5.soundClassifier("https://teachablemachine.withgoogle.com/models/Od8fwIYSo/", modelReady);
+    navigator.mediaDevices.getUserMedia({audio: true});https://teachablemachine.withgoogle.com/models/Od8fwIYSo/
+    classifier = ml5.soundClassifier("https://storage.googleapis.com/tm-model/Od8fwIYSo/model.json", modelReady);
 }
 
 function modelReady(){
