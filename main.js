@@ -28,12 +28,12 @@ function gotResults(error, results){
         img3=document.getElementById('bomberos3')
         img4=document.getElementById('proteccion civil4')
 
-        if(results[0].label=="policia"){
+        if(results[0].label=="Policia"){
             img.src='policia-01.gif';
             img2.src= 'ambulancia-02.png';
             img3.src= 'bomberos-03.png';
             img4.src= 'proteccion civil-04.png';
-        }else if(results[0].label=="ruido de fondo"){
+        }else if(results[0].label=="Ruido de fondo"){
             img.src='policia-01.png';
             img2.src= 'ambulancia-02.png';
             img3.src= 'bomberos-03.png';
